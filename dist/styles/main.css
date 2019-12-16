@@ -1,0 +1,383 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(3, 47,80);
+}
+
+.navbar{
+	font-size: 20px;
+	background-color: rgb(10, 87, 148);
+	color: white;
+	/* opacity: .75; */
+}
+
+.navbar-nav{
+	margin: 0px auto;
+	color: white;
+}
+
+.nav-item{
+	margin-left: 30px;
+	color: white;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover{
+	color: rgb(206, 206, 206);
+}
+
+.navbar-brand{
+	font-size: 40px;
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: rgb(206, 206, 206);
+}
+
+/* span.navbar-toggler-icon{
+	background-color: rgb(210, 77, 40);
+} */
+
+.navbar-toggler{
+
+	border: solid white 1px;
+}
+
+.navbar-toggler:hover{
+	opacity: .5;
+}
+
+#profPic{
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+}
+
+#header{
+	font-family: "Hemi Head";
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#subheader{
+	color: white;
+	text-align: center;
+	/* margin-top: 20px; */
+}
+
+#enginePic{
+	width: 100vw;
+	height: 600px;
+	opacity: .75;
+	margin-bottom: -200px;
+}
+
+.homeHeader{
+	position: relative;
+	top: -200px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(3, 47,80, .75);
+	color: white
+}
+
+#headline{
+	font-family: "Hemi Head";
+	text-align: center;
+	color: white
+}
+
+#jumbotronBtn{
+	background-color: rgb(210, 77, 40);
+	color: white;
+	text-align: center;
+	margin: 20px auto;
+}
+
+#homeText{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+	text-align: center;
+}
+
+#HMenuBtn{
+	background-color: none;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#HMenuBtn:hover{
+	background-color: none;
+	margin-left: 20px;
+	cursor: pointer;
+	opacity: .7;
+}
+
+#modalX{
+	color: white;
+}
+
+.close{
+	opacity: 1;
+}
+
+.modal-content{
+	background-color: rgb(10, 87, 148);
+	color: white;
+}
+
+.modal-title{
+	background-color: rgb(3, 47,80);
+	color: white;
+}
+
+.modal-header{
+	background-color: rgb(3, 47,80);
+	color: white;
+}
+
+.modal-body{
+	background-color: rgb(10, 87, 148);
+	color: white;
+}
+
+/* #select{
+	margin-bottom: 20px;
+} */
+
+#modalLocationSearchBtn{
+	background-color: rgb(210, 77, 40);
+	color: white;
+	text-align: center;
+	margin: 20px auto;
+}
+
+
+#pSearchText{
+	margin: 0px auto;
+	/* text-align: center; */
+	margin-top: 20px;
+	color: white;
+}
+
+.partSearchForm{
+	margin: 0px auto;
+	text-align: center;
+}
+
+#year{
+	color: white;
+	margin-top:20px;
+}
+
+#make{
+	color: white;
+	margin-top:20px;
+}
+
+#model{
+	color: white;
+	margin-top:20px;
+}
+
+#part{
+	color: white;
+	margin-top:20px;
+}
+
+#allStoresLink{
+ color: white;
+}
+
+#allStoresLink:hover{
+	color: rgb(210, 77, 40);
+}
+
+#sellText{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: white;
+}
+
+
+
+#slide1{
+	text-align: center;
+	margin: 0px auto;
+}
+
+#slide2{
+	text-align: center;
+	margin: 0px auto;
+}
+
+#slide3{
+	text-align: center;
+	margin: 0px auto;
+}
+
+.carousel-indicators2{
+	margin-top: -50px;
+}
+
+.carousel-control-prev-icon{
+	margin-top: -50px;
+}
+
+.carousel-control-next-icon{
+	margin-top: -50px;
+}
+
+#projectsTitle{
+	/* font-family: "Josefin Slab"; */
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+	/* background-color: #343a40; */
+}
+
+
+
+.contactFormInput{
+	margin-top: 20px;
+}
+
+.contactSubheader{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#contactFormBtn{
+	background-color: rgb(210, 77, 40);
+	color: white;
+	margin-top: 20px;
+	float:left;
+}
+
+#signup{
+	text-align: center;
+	/* font-family: "Josefin Slab"; */
+	color: white;
+	font-weight: bold;
+}
+
+#notLoggedIn{
+	margin: 0px auto;
+}
+
+form{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+
+#submitBtn{
+	background-color: black;
+	color: white;
+	height: 50px;
+	margin-top: 25px;
+	/* margin-left: 30px; */
+}
+
+#confirmation{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+#confirmed{
+	text-align: center;
+	color: white;
+}
+
+#confirmedBtn1{
+	margin: 20px auto;
+	text-align: center;
+}
+
+#confirmedBtn{
+	background-color: rgb(210, 77, 40);
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#logoutBtn1{
+	margin: 20px auto;
+	text-align: center;
+}
+
+.logBtn{
+	margin: 0px auto;
+	text-align: center;
+	background-color: rgb(210, 77, 40);
+	color: white;
+}
+
+.loggedInText{
+	text-align: center;
+	color: white;
+}
+
+#footer {
+	position: absolute;
+	top: 1000px;
+	width: 100%;
+	padding-top: 20px;
+	background-color: rgb(10, 87, 148);
+}
+
+.footerLinks{
+	display: inline;
+	margin: 0px auto;
+	/* background-color: rgb(10, 87, 148); */
+}
+
+#copyrightText{
+	margin-top: 10px;
+	background-color: rgb(10, 87, 148);
+	color: white;
+}
+
+
+.socialMediaIcons{
+	width: 20px;
+	height: 20px;
+}
+
+.socialMediaIcons:hover{
+	width: 20px;
+	height: 20px;
+	opacity: .75;
+}
+
+
+
+
+
+/*@media screen and (max-width: 955px){
+	
+}*/
+
+
+
+
+/*-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;*/
+
